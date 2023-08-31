@@ -17,15 +17,17 @@ const PokemonDetail = () => {
 
   return (
     <main className="flex bg-red-400/40 min-h-screen justify-center items-center px-2">
-      <article className="bg-white/80 capitalize w-[min(100%,_500px)] py-2 shadow-md shadow-black/20 mt-6">
+      <article className="bg-white/80 pb-3 rounded-md capitalize w-[min(100%,_500px)] shadow-md shadow-black/20 mt-8">
+        <div className="relative">
         <Link
           to={"/pokedex"}
-          className="bg-red-500 font-semibold border-[1px] border-red-900 px-4 ml-2 hover:bg-red-600 hover:text-white rounded-md"
+          className="bg-red-500 absolute z-10 top-2 font-semibold border-[1px] border-red-900 px-4 ml-2 hover:bg-red-600 hover:text-white rounded-md"
         >
           Back
         </Link>
+        </div>
         <header
-          className={`bg-black/30 h-[55px] relative mt-1 ${
+          className={`h-[55px] relative rounded-[6px_6px_0_0px] ${
             bgStylePokemonType[pokemonData?.types[0]]
           }`}
         >
@@ -56,7 +58,7 @@ const PokemonDetail = () => {
           </section>
 
           <section className="grid px-1 float-right justify-end gap-3">
-            <h2 className="col-span-2 font-semibold">Types</h2>
+            <h2 className="col-span-2 grid font-semibold">Types</h2>
             <span
               className={`p-1 px-[10px] rounded-md ${
                 bgStylePokemonType[pokemonData?.types[0]]

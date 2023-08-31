@@ -45,10 +45,10 @@ const Pokedex = () => {
           <span className="font-bold text-red-600 text-xl">Welcome {name}</span>
           , here you can find your favorite pokemon
         </p>
-        <form className="grid justify-center gap-4 mt-3 sm:flex">
+        <form className="grid justify-center gap-4 mt-4 sm:flex">
           <div>
             <input
-              className="bg-black/10 text-center px-3 py-1 rounded-md"
+              className="bg-black/10 text-center outline-none px-3 py-1 rounded-md"
               value={pokemonName}
               onChange={handleChange(setPokemonName)}
               placeholder="Search pokemon..."
