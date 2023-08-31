@@ -15,6 +15,7 @@ function App() {
         <Route path="/pokedex/:pokemonId" element={<PokemonDetail />} />
       </Route>
     </Routes>
+    
   );
 }
 

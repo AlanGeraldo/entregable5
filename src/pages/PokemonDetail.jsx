@@ -16,8 +16,8 @@ const PokemonDetail = () => {
   }, []);
 
   return (
-    <main className="flex bg-red-400/40 justify-center items-center px-2">
-      <article className="bg-white/80 capitalize w-[min(100%,_400px)] py-2 shadow-md shadow-black/20 mt-6">
+    <main className="flex bg-red-400/40 min-h-screen justify-center items-center px-2">
+      <article className="bg-white/80 capitalize w-[min(100%,_500px)] py-2 shadow-md shadow-black/20 mt-6">
         <Link
           to={"/pokedex"}
           className="bg-red-500 font-semibold border-[1px] border-red-900 px-4 ml-2 hover:bg-red-600 hover:text-white rounded-md"
@@ -30,7 +30,7 @@ const PokemonDetail = () => {
           }`}
         >
           <div
-            className={`flex justify-center absolute left-1/2 -translate-x-1/2 -top-7 h-[75px] aspect-square`}
+            className={`flex justify-center absolute left-1/2 -translate-x-1/2 -top-7 h-[80px] aspect-square`}
           >
             <img
               className="h-full w-full object-contain"
