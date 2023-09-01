@@ -36,7 +36,7 @@ const borderPokemonType = {
   steel: "border-[5px] border-[#43BD94]/50",
   electric: "border-[5px] border-[#FAFB71]/80",
   psychic: "border-[5px] border-[#F71C90]/50",
-  ice: "border-[5px] border-[#D6F1FA]",
+  ice: "border-[5px] border-cyan-500/50",
   dragon: "border-[5px] border-[#60CCD9]/50",
   dark: "border-[5px] border-[#5A5979]/70",
   fairy: "border-[5px] border-[#EB1269]/50",
